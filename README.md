@@ -1,3 +1,5 @@
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.sridhar-001/UtilTest/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.sridhar-001/UtilTest)
+
 Maven command Line Options:
 
 -DexcludeClass
