@@ -1,10 +1,12 @@
 Maven command Line Options:
 
 -DexcludeClass
+
                   Accepts single or multiple comma separated class files
 				  Exclude the specified classes at run time test execution
 
 -DincludeClass
+
                   Accepts single or multiple comma separated class files
 				  Include the specified classes only at run time test execution
 
