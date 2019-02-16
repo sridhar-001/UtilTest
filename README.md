@@ -51,4 +51,3 @@ Add the dependency to module pom.xml
  3) Maven parameter to exclude/include single/multiple suitexml/class/method each of which can be comma separated
  Eg: mvn clean install -DexcludeSuiteXML=tempxml,temp1.xml,temp2.xml
 
- 
