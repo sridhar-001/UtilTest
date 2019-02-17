@@ -4,19 +4,22 @@ Filter Testng Test execution based on command line parameter value
 Usage :
 
 Add the listener filter to main testng.xml<br>
+<pre>
 &lt;listeners&gt;<br>
-     --&lt;listener class-name="com.github.sridhar.CustomTestFilter"/&gt;<br>
+     &lt;listener class-name="com.github.sridhar.CustomTestFilter"/&gt;<br>
  &lt;/listeners&gt;<br>
+</pre>
 
 Add the dependency to module pom.xml<br>
- &lt;dependencies&gt;<br>
-       -- &lt;dependency><br>
-           --- &lt;groupId&gt;com.github.sridhar-001&lt;/groupId&gt;<br>
-            ---&lt;artifactId&gt;CustomTestFilter&lt;/artifactId&gt;<br>
-           --- &lt;version&gt;1.0.0&lt;/version&gt;<br>
-       -- &lt;/dependency&gt;<br>
+<pre>
+&lt;dependencies&gt;<br>
+       &lt;dependency><br>
+           &lt;groupId&gt;com.github.sridhar-001&lt;/groupId&gt;<br>
+            &lt;artifactId&gt;CustomTestFilter&lt;/artifactId&gt;<br>
+           &lt;version&gt;1.0.0&lt;/version&gt;<br>
+       &lt;/dependency&gt;<br>
  &lt;/dependencies&gt;<br>
-
+</pre>
  Points to note:
  1) Easy to use. No need to add listener in each and every suite xml file except for the parent testng.xml which is called by module pom.xml<br>
  
