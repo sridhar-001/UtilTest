@@ -10,7 +10,7 @@ Add the listener filter to main testng.xml<br>
  &lt;/listeners&gt;<br>
 </pre>
 
-Add the dependency to pom.xml of the individual test-moduleto consider filtering of tests <br>
+Add the dependency to pom.xml of the individual test-module to consider filtering of tests <br>
 <pre>
 &lt;dependencies&gt;<br>
        &lt;dependency><br>
