@@ -1,5 +1,5 @@
 
-`Custom-Filter TestListener to filter Testng Test execution based on maven command line parameter`
+`Custom-Filter TestListener to filter Testng Test execution based on maven command line parameter value`
 
 Usage :
 
