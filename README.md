@@ -29,7 +29,7 @@ Add the dependency to module pom.xml<br>
  Eg: mvn clean install -DexcludeSuiteXML=tempxml,temp1.xml,temp2.xml<br>
        If the parameter value does not match any value then no tests will be executed<br>
        
- 4) Backward compatible. If there is no filter criteria is specified all the tests will be executed<br>
+ 4) Backward compatible. If there is no filter criteria specified then all the tests will be executed<br>
 
 Maven command Line Options:
 
