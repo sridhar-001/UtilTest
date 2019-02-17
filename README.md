@@ -1,5 +1,5 @@
 
-`Filter Testng Test execution based on command line parameter value`
+`CustomFilterTest Listener to filter Testng Test execution based on command line parameter value`
 
 Usage :
 
