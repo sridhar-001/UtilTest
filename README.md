@@ -1,5 +1,5 @@
 
-`CustomFilterTest Listener to filter Testng Test execution based on command line parameter value`
+`CustomFilter TestListener to filter Testng Test execution based on command line parameter value`
 
 Usage :
 
@@ -10,7 +10,7 @@ Add the listener filter to main testng.xml<br>
  &lt;/listeners&gt;<br>
 </pre>
 
-Add the dependency to test module pom.xml<br>
+Add the dependency to individual test module pom.xml<br>
 <pre>
 &lt;dependencies&gt;<br>
        &lt;dependency><br>
